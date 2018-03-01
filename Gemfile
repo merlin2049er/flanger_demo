@@ -37,7 +37,8 @@ gem 'bulma-rails', '~> 0.6.1'
 gem 'simple_form', '~> 3.5'
 gem 'devise', '~> 4.4'
 gem 'gravatar_image_tag', '~> 1.2'
-gem "paperclip", "~> 5.2.1"
+gem 'carrierwave'
+gem 'mini_magick'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console

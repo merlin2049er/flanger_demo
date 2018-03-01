@@ -7,7 +7,7 @@ class CreateInstruments < ActiveRecord::Migration[5.1]
       t.string :condition
       t.string :finish
       t.string :title
-      t.decimal :price
+      t.string :price
 
       t.timestamps
     end
