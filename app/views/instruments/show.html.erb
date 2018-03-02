@@ -35,6 +35,8 @@
   <%= @instrument.price %>
 </p>
 
+<%= button_to 'Add to cart', line_items_path(instrument_id: @instrument), class:'button is-warning' %>
+
 <p>
   <%= image_tag(@instrument.image_url(:default)) %>
 </p>

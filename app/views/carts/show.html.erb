@@ -1,0 +1,13 @@
+<div class="line-items pv4">
+
+<section class="section">
+  <%= render(@cart.line_items) %>
+
+  <div class="total">
+    <%= number_to_currency(@cart.total_price) %>
+  </div>
+</section>
+
+</div>
+
+<%= button_to 'Empty Cart', @cart, method: :delete, data: { confirm: "Are you sure?" }, class:'button is-danger' %>
